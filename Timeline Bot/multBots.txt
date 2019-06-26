@@ -1,0 +1,4 @@
+bot1.txt
+bot2.txt
+bot3.txt
+

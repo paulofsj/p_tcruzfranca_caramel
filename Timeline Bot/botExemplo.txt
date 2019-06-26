@@ -1,0 +1,24 @@
+#timeoutNavegador in seconds
+timeoutNavegador = 30
+
+#timeToLogIn in seconds
+timeToLogIn = 3
+
+user = BOTEXEMPLO@gmail.com
+password = L4gNIlala
+
+#timeToLoadTheTimeLine in seconds
+timeToLoadTheTimeLine = 3
+
+#Mongo params
+db = bot
+collection = bot_2018_03_26
+
+#amountOfTweets max 35 a 38
+amountOfTweets = 30
+
+#intervalo entre coletas em segundos1200
+botSleepTime = 3600
+
+#UsersFollowedByBot
+botFollowCount = 0
