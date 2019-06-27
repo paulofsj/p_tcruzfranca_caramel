@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Ferramentas de coleta e processamento de dados para o Twitter
 
-You can use the [editor on GitHub](https://github.com/labcores/p_tcruzfranca_caramel/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+As quatro ferramentas estão disponíveis junto à jupyter notebooks que servirão de guias de uso.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Caso não seja familiar com notebooks os links abaixo podem ser úteis:
 
-### Markdown
+- https://jupyter.org/
+- https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html
+- https://medium.com/horadecodar/como-instalar-o-jupyter-notebook-windows-e-linux-20701fc583c
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Timeline Bot
 
-```markdown
-Syntax highlighted code block
+Bot feito através do Selenium que coleta conteúdo de tweets da timeline da conta autenticada. Múltiplos bots podem ser executados ao mesmo tempo, mas é preciso se ter cuidado com o uso de memória. Os campos escolhidos para extração são explicados com mais detalhes no guia.
 
-# Header 1
-## Header 2
-### Header 3
+### Crawler via Twitter API
 
-- Bulleted
-- List
+Simula um usuário e coleta dados da timeline de forma similar à ferramenta anterior, a diferença é no acesso pela API do Twitter em vez de web scraping.
 
-1. Numbered
-2. List
+### Web Scraper Search API
 
-**Bold** and _Italic_ and `Code` text
+Coleta tweets nos últimos 7 dias de acordo com os termos de busca escolhidos, que podem ser inclusive hashtags.
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Pré-processamento
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/labcores/p_tcruzfranca_caramel/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Possui algumas funções de pré-processamento como stemização, lematização e outros filtros de texto. Ainda em andamento, mas funcional.
